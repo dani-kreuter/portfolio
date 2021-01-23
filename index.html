@@ -10,7 +10,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Daniel Kreuter - Under Construction</title>
     <link rel="canonical" href="https://danielkreuter.com" />
-    <link rel="stylesheet" href="styles.css" />
     <link rel="shortcut icon" href="https://danielkreuter.com/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="https://danielkreuter.com/favicon.ico" type="image/x-icon" />
     <link
@@ -19,6 +18,52 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Bangers|Roboto:400,900&display=swap");
+      * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        background-color: rgb(24, 24, 24);
+        background-image: url("bg.png");
+        background-size: 50%;
+      }
+
+      #card {
+        position: absolute;
+        top: 10vh;
+        right: 1rem;
+        left: 1rem;
+        max-width: 30rem;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 0.25rem;
+        padding: 1.5rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        text-align: center;
+      }
+
+      h1 {
+        font-family: "Bangers", cursive;
+        font-weight: normal;
+      }
+
+      a {
+        font-size: 2rem;
+        color: #000;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+      }
+      a:hover {
+        background-color: #ddd;
+      }
+    </style>
   </head>
   <body>
     <div id="card">
